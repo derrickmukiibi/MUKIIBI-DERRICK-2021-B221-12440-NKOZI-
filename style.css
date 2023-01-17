@@ -1,0 +1,346 @@
+html{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    width: 100%;
+    color: #00c673;
+    height: fit-content;
+    align-items: center;
+}
+
+.nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(175, 174, 174);
+    align-items: center;
+    height: 100%;
+
+   
+
+}
+.nav-bar li{
+    padding: 7px;
+    padding: 25px;
+    
+}
+.nav-bar li :hover{
+    background-color: #00c673;
+
+}
+
+a{
+    text-decoration: none;
+    color:#717171;
+    padding: 25px;
+}
+
+
+.Home{
+    background-color: #00c673;
+    color: #717171;
+}
+
+
+.d{
+   z-index: 10;
+   position: relative;
+    bottom:50px;
+
+}
+.dd{
+    color: rgb(27, 27, 27);
+}
+
+/* slides */
+/* Slideshow container */
+.slideshow-container {
+    width: auto;
+    position: relative;
+    margin: auto;
+    height: auto;
+  }
+
+.img-slide img{
+    width:auto ;
+    height: auto;
+}
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+/* images div */
+.images{
+    width: auto;
+}
+
+/* Button download Now */
+.download-now{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #00c673;
+    color: white;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+
+}
+
+.download-now p{
+    flex-basis:40 ;
+}
+.download-now button{
+    flex-basis: 60;
+    color: white;
+    background-color: #00c673;
+    border-color: white;
+    height: 40px;
+
+}
+.box-btn{
+    color:rgb(121, 241, 121);
+}
+
+/* content div */
+.content{
+    display: flex;
+    width: 1100px;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.box-btn{
+    justify-self: flex-end;
+    align-self: flex-end;
+    background-color: white;
+    width: fit-content;
+    height: 50px;
+    margin-left: 550px;
+    border-color: #8b8a8a;
+
+}
+
+.box{
+    width: fit-content;
+    height: fit-content;
+}
+.content2{
+    width: 500px;
+    /* border: 2px solid red; */
+}
+
+.content1{
+    /* border: 2px solid pink; */
+    display: flex;
+    flex-direction: column;
+    color: #8b8a8a;
+}
+
+.cont{
+    /* border: 2px solid pink; */
+    display: flex;
+    flex-direction: row;
+    flex-basis: 40;
+    width: auto;
+
+}
+.cont img{
+    width: 225x;
+    height: 225px;
+}
+.cont div{
+    width: 200px;
+}
+.box-p{
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 100px;
+}
+
+.s1{
+    border:  1px solid gray;
+}
+.s2{
+    border:  1px solid gray;
+}
+.s3{
+    border:  1px solid gray;
+}
+.s4{
+    border:  1px solid gray;
+}
+.s5{
+    border:  1px solid gray;
+}
+.s6{
+    border:  1px solid gray;
+}
+
+.green{
+    color: green;
+}
+
+.boldd{
+    color: rgb(32, 32, 32);
+    font-size: 30px;
+}
+.temp{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.temp p{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 300px;
+    background-color: #202020;
+    color: rgb(212, 208, 208);
+    align-items: center;
+}
+
+.footer ul{
+     text-decoration: none;
+     list-style: none;
+     display: flex;
+     flex-direction: column;
+    justify-content: flex-start;
+
+}
+.footer li{
+    border-bottom: 2px solid   rgb(87, 86, 86);
+    margin-bottom: 30px;
+}
+.fot2{
+    width: 200px;
+}
+
+.fot2  span{
+    color: green;
+
+}
+.colorlib{
+    font-size: 70px;
+}
+
+.fot1{
+    width: 300px;
+}
+
+.footerLast{
+    background-color:#202020;
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+/* demo button */
+.demo{
+    font-size: 40px;
+}
